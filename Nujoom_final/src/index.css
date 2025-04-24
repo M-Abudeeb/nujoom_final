@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+/* Font import for 29LT Kaff Light */
+@font-face {
+  font-family: 'Kaff';
+  src: url('./fonts/29LT Kaff Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply font globally */
+@layer base {
+  html {
+    font-family: 'Kaff', system-ui, sans-serif;
+  }
+} 
